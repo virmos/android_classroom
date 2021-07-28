@@ -52,7 +52,6 @@ class RecognitionAdapter(private val ctx: Context) :
         }
     }
 
-
 }
 
 class RecognitionViewHolder(private val binding: RecognitionItemBinding) :

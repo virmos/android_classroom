@@ -1,0 +1,36 @@
+				PART 1:
+RelativeLayout
+wrap_content, fill_parent
+layout_centerInParent, layout_toRightOf, layout_below="@id"
+layout_marginLeft
+textColor, textStyle, inputType
+background="@color/colorPrimary"
+
+ConstraintLayout
+
+LinearLayout
+android:orientation="veritcal"
+
+setImageResource
+Toast.makeText()
+R.id
+checkbox.setOnCheckedChangeListener()
+progressBar.setVisibility(View.VISIBLE), progressBar.getProgress()
+
+Spinner:
+ArrayAdapter<String> = { android.R.layout.simple_spinner_dropdown_item }
+setOnItemSelectedListener
+getSelectedItem().toString()
+res/values/strings.xml
+<string-array name=""> <item> </item>
+android:entries="@array/"
+R.string.$id
+
+Menu:
+onCreateOptionMenu
+MenuInflater infalter = getMenuInflater()
+inflater.inflate(R.menu.main_menu, menu)
+onOptionsItemSelected() {cases}
+
+
+				PART 2:
